@@ -1,0 +1,141 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none !important;
+  color: unset;
+  background-color: transparent;
+}
+
+a:hover {
+  color: unset;
+}
+
+select,
+option,
+input,
+button {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: none;
+  height: auto;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: unset;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+.inner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.header-info {
+  background-color: #EFF1F4;
+  height: 44px;
+  padding: 10px 0px;
+}
+
+.header-info a {
+  padding: 0px 16px;
+}
+
+.header-info a:last-child {
+  padding-right: 0;
+}
+
+.header-content {
+  background: url("../img/bg-menutop.png") no-repeat;
+  height: 104px;
+}
+
+.header-content .left-content img {
+  padding: 16px 12px 16px 0px;
+}
+
+.header-content .left-content .header-title {
+  padding: 25px 0px;
+}
+
+.header-content .left-content .header-title h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  color: #24A11E;
+}
+
+.header-content .left-content .header-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #005C70;
+}
+
+.header-content .right-content .cart {
+  padding: 32px 0px;
+}
+
+.header-menu {
+  height: 50px;
+  background-color: #24A11E;
+}
+
+.header-menu li :hover {
+  background-color: #007E00;
+}
+
+.header-menu li a {
+  margin: 0 15px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  padding: 16.9px 16px 15.8px 16px;
+}
+
+.header-menu li a.home {
+  margin-left: 0;
+}
+/*# sourceMappingURL=index.css.map */
