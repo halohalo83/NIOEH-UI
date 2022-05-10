@@ -14,4 +14,11 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 3
     })
+    $(".news-slide").slick({
+        infinite: true,
+        arrows: false,
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    })
 })
