@@ -130,6 +130,10 @@ li {
   background-color: #24a11e;
 }
 
+.header-menu .active {
+  background-color: #007e00;
+}
+
 .header-menu li :hover {
   background-color: #007e00;
 }
