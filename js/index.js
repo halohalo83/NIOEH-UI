@@ -4,13 +4,14 @@ $(document).ready(function() {
         infinite: true,
         arrows: false,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         lazyLoad: "ondemand",
     });
     $(".pack-content").slick({
         infinite: true,
         arrows: true,
         dots: false,
+        autoplay: true,
         slidesToShow: 3,
         slidesToScroll: 3
     })
@@ -18,6 +19,7 @@ $(document).ready(function() {
         infinite: true,
         arrows: false,
         dots: false,
+        autoplay: true,
         slidesToShow: 3,
         slidesToScroll: 3
     })
