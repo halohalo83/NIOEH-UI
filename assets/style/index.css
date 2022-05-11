@@ -133,21 +133,23 @@ li {
   background-color: #24a11e;
 }
 
-.header-menu .active {
-  background-color: #007e00;
-}
-
-.header-menu li :hover {
-  background-color: #007e00;
-}
-
-.header-menu li a {
+.header-menu li {
+  color: #ffffff;
   margin: 0 15px;
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   line-height: 143%;
-  padding: 16.9px 16px 15.8px 16px;
+  padding: 14px 16px 15.8px 16px;
+  cursor: pointer;
+}
+
+.header-menu li.active {
+  background-color: #007e00;
+}
+
+.header-menu li:hover {
+  background-color: #007e00;
 }
 
 .slider-item {
