@@ -665,7 +665,11 @@ li {
 }
 
 // TAB KIỂM TRA NƯỚC
-.tab-water {}
+.tab-water {
+    .advantage {
+        background-color: #EFF9FF;
+    }
+}
 
 // TAB KIỂM TRA KHÔNG KHÍ
 .tab-air {}

@@ -1,6 +1,9 @@
 $(document).ready(function() {
-    $('.tab-container:first').show();
-    $('.tab-navigation li:first').addClass('active');
+    // $('.tab-container:first').show();
+    // $('.tab-navigation li:first').addClass('active');
+    $('.tab-container.tab-water').show();
+    $('.tab-container:first').hide();
+
     $('.tab-navigation li').click(function(event) {
         index = $(this).index();
         $('.tab-navigation li').removeClass('active');
