@@ -2,7 +2,7 @@ $(document).ready(function() {
     // Sự kiện click chuyển tab menu
     $('.tab-container:first').show();
     $('.tab-navigation li:first').addClass('active');
-    // $('.tab-container.tab-news').show();
+    // $('.tab-container.tab-water').show();
     // $('.tab-container:first').hide();
 
     $('.tab-navigation li').click(function(event) {

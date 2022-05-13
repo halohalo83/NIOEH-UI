@@ -680,7 +680,10 @@ li {
             padding-bottom: 30px;
         }
         ul {
-            padding-bottom: 64px;
+            padding: 0 80px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #EFF9FF;
+            box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
             li {
                 position: relative;
                 margin: 0 40px;
@@ -689,6 +692,7 @@ li {
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 24px;
+                text-align: center;
                 cursor: pointer;
                 transition: all 0.5s ease;
                 &.active {
