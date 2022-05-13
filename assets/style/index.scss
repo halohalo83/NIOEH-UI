@@ -977,6 +977,137 @@ li {
         justify-content: space-between;
         margin-left: -7px;
     }
+    .news-content {
+        .content-left {
+            .item {
+                margin-bottom: 20px;
+                img {
+                    max-height: 160px;
+                    max-width: 263px;
+                    object-fit: contain;
+                    padding-right: 20px;
+                }
+                h4 {
+                    color: #2f4858;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 26px;
+                    margin-bottom: 8px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                h5 {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    color: #24a11e;
+                }
+                span {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    color: #677987;
+                    padding-left: 38px;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 6px;
+                        height: 6px;
+                        background-color: #c4c4c4;
+                        border-radius: 50%;
+                        top: 34%;
+                        left: 16%;
+                    }
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #52606b;
+                    margin-top: 12px;
+                    padding-right: 15px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+        .content-right {
+            .top-news {
+                margin-bottom: 30px;
+                .title {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 144%;
+                    text-transform: uppercase;
+                    color: #2f4858;
+                    margin-bottom: 34px;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid #eff1f4;
+                    position: relative;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 124px;
+                        height: 2px;
+                        background-color: #24a11e;
+                        left: 2px;
+                        bottom: -1px;
+                    }
+                }
+                .item {
+                    margin-bottom: 16px;
+                    img {
+                        max-width: 128px;
+                        max-height: 80px;
+                        padding-right: 12px;
+                    }
+                    b {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #52606b;
+                        padding-right: 8px;
+                        margin-bottom: 8px;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    span {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 143%;
+                        color: #677987;
+                    }
+                }
+            }
+            .banner {
+                margin-bottom: 30px;
+                &.banner-1 {
+                    background: url("../img/goi5.png") no-repeat;
+                    width: 100%;
+                    height: 240px;
+                }
+                &.banner-2 {
+                    background: url("../img/goi6.png") no-repeat;
+                    width: 100%;
+                    height: 410px;
+                }
+            }
+        }
+    }
 }
 
 .footer-content {
