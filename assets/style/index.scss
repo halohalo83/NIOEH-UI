@@ -76,75 +76,79 @@ li {
 }
 
 // header
-.header-info {
-    background-color: #eff1f4;
-    height: 44px;
-    a {
-        padding: 0px 15px;
-        text-align: center;
+.header-desktop {
+    .header-info {
+        background-color: #eff1f4;
+        height: 44px;
+        a {
+            padding: 0px 15px;
+            text-align: center;
+        }
+    }
+    .header-content {
+        background: url("../img/bg-menutop.png") no-repeat;
+        height: 104px;
+        .left-content {
+            img {
+                padding: 0 15px;
+                object-fit: none;
+            }
+            .header-title {
+                h3 {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 133%;
+                    color: #24a11e;
+                }
+                p {
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 125%;
+                    color: #005c70;
+                }
+            }
+        }
+        .right-content {
+            .cart {
+                padding-right: 15px;
+                position: relative;
+                span {
+                    position: absolute;
+                    background-color: #24a11e;
+                    color: #ffffff;
+                    border-radius: 50%;
+                    padding: 1px 5px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    left: 32px;
+                }
+            }
+        }
+    }
+    .header-menu {
+        height: 50px;
+        background-color: #24a11e;
+        li {
+            color: #ffffff;
+            margin: 0 15px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 143%;
+            padding: 14px 16px 15.8px 16px;
+            cursor: pointer;
+            &.active {
+                background-color: #007e00;
+            }
+            &:hover {
+                background-color: #007e00;
+            }
+        }
     }
 }
 
-.header-content {
-    background: url("../img/bg-menutop.png") no-repeat;
-    height: 104px;
-    .left-content {
-        img {
-            padding: 0 15px;
-            object-fit: none;
-        }
-        .header-title {
-            h3 {
-                font-weight: 700;
-                font-size: 24px;
-                line-height: 133%;
-                color: #24a11e;
-            }
-            p {
-                font-weight: 600;
-                font-size: 15px;
-                line-height: 125%;
-                color: #005c70;
-            }
-        }
-    }
-    .right-content {
-        .cart {
-            padding-right: 15px;
-            position: relative;
-            span {
-                position: absolute;
-                background-color: #24a11e;
-                color: #ffffff;
-                border-radius: 50%;
-                padding: 1px 5px;
-                font-size: 11px;
-                font-weight: 600;
-                left: 32px;
-            }
-        }
-    }
-}
-
-.header-menu {
-    height: 50px;
-    background-color: #24a11e;
-    li {
-        color: #ffffff;
-        margin: 0 15px;
-        color: #ffffff;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 143%;
-        padding: 14px 16px 15.8px 16px;
-        cursor: pointer;
-        &.active {
-            background-color: #007e00;
-        }
-        &:hover {
-            background-color: #007e00;
-        }
-    }
+.header-mobile {
+    display: none;
 }
 
 // TAB HOME
@@ -867,6 +871,9 @@ li {
 
 // TAB TIN TỨC
 .tab-news {
+    &.detail {
+        margin-top: 40px;
+    }
     display: none;
     .news-slide {
         padding: 0 15px;

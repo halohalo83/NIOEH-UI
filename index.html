@@ -23,6 +23,7 @@
 
     <!-- My style -->
     <link rel="stylesheet" href="./assets/style/index.css" />
+    <link rel="stylesheet" href="./assets/style/index-responsive.css">
 
     <title>NIOEH</title>
 </head>
@@ -30,50 +31,58 @@
 <body>
     <!---------------------------------- HEADER ---------------------------------------->
     <header>
-        <!-- header info -->
-        <div class="header-info">
-            <div class="h-100 inner d-flex justify-content-between align-items-center">
-                <div class="left-info d-flex">
-                    <a class="email" href="mailto:nioeh@nioeh.org.vn"><img src="./assets/icon/mail.svg" /> nioeh@nioeh.org.vn</a>
-                    <a class="phone" href="tel:02439714361"><img src="./assets/icon/phone-call.svg" /> 02439714361</a>
-                </div>
-                <div class="right-info d-flex">
-                    <a class="login" href=""><img src="./assets/icon/login.svg" /> Đăng nhập</a>
-                    <a class="register" href=""><img src="./assets/icon/user-1.svg" /> Đăng kí</a>
-                </div>
-            </div>
-        </div>
-        <!-- header content -->
-        <div class="header-content">
-            <div class="h-100 inner d-flex justify-content-between align-items-center">
-                <div class="left-content d-flex">
-                    <img src="./assets/img/logo.png" />
-                    <div class="header-title d-flex flex-column justify-content-center">
-                        <h3>VIỆN SỨC KHỎE NGHỀ NGHIỆP VÀ MÔI TRƯỜNG</h3>
-                        <p>TRUNG TÂM DỊCH VỤ KHOA HỌC KỸ THUẬT SỨC KHỎE VÀ MÔI TRƯỜNG</p>
+        <div class="header-desktop">
+            <!-- header info -->
+            <div class="header-info">
+                <div class="h-100 inner d-flex justify-content-between align-items-center">
+                    <div class="left-info d-flex">
+                        <a class="email" href="mailto:nioeh@nioeh.org.vn"><img src="./assets/icon/mail.svg" /> nioeh@nioeh.org.vn</a>
+                        <a class="phone" href="tel:02439714361"><img src="./assets/icon/phone-call.svg" /> 02439714361</a>
                     </div>
-                </div>
-                <div class="right-content">
-                    <div class="cart cursor-pointer">
-                        <img src="./assets/img/cart.png" />
-                        <span>10</span>
+                    <div class="right-info d-flex">
+                        <a class="login" href=""><img src="./assets/icon/login.svg" /> Đăng nhập</a>
+                        <a class="register" href=""><img src="./assets/icon/user-1.svg" /> Đăng kí</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- header menu -->
-        <div class="header-menu">
-            <div class="inner h-100">
-                <ul class="tab-navigation h-100 d-flex flex-direction-row align-items-center">
-                    <li>
-                        <img src="./assets/icon/home.svg" />
-                    </li>
-                    <li>KIỂM TRA NƯỚC</li>
-                    <li>KIỂM TRA KHÔNG KHÍ</li>
-                    <li>TIN TỨC</li>
-                </ul>
+            <!-- header content -->
+            <div class="header-content">
+                <div class="h-100 inner d-flex justify-content-between align-items-center">
+                    <div class="left-content d-flex">
+                        <img src="./assets/img/logo.png" />
+                        <div class="header-title d-flex flex-column justify-content-center">
+                            <h3>VIỆN SỨC KHỎE NGHỀ NGHIỆP VÀ MÔI TRƯỜNG</h3>
+                            <p>TRUNG TÂM DỊCH VỤ KHOA HỌC KỸ THUẬT SỨC KHỎE VÀ MÔI TRƯỜNG</p>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <div class="cart cursor-pointer">
+                            <img src="./assets/img/cart.png" />
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header menu -->
+            <div class="header-menu">
+                <div class="inner h-100">
+                    <ul class="tab-navigation h-100 d-flex flex-direction-row align-items-center">
+                        <li>
+                            <img src="./assets/icon/home.svg" />
+                        </li>
+                        <li>KIỂM TRA NƯỚC</li>
+                        <li>KIỂM TRA KHÔNG KHÍ</li>
+                        <li>TIN TỨC</li>
+                        <li>Chi tiết bài viết</li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div class="header-mobile">
+            <a href="#" class="header-logo"><img src="./assets/img/logo.png" /></a>
+            <div class="btn-nav-mobile"><img src="./assets/img/bars-icon.png" alt=""></div>
+        </div>
+
     </header>
     <!---------------------------------- MAIN ---------------------------------------->
     <main>
@@ -852,6 +861,153 @@
             <div class="banner banner-2"></div>
         </div>
         </div>
+        </div>
+
+        <!-- CHI TIẾT TIN TỨC  -->
+        <div class="tab-container tab-news detail inner">
+            <div class="news-content d-flex flex-wrap">
+                <div class="content-left col-xl-8">
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item d-flex">
+                        <img src="./assets/img/tintuc4.png" alt="" />
+                        <div>
+                            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                            <div class="d-flex">
+                                <h5>KIỂM TRA THỰC PHẨM</h5>
+                                <span>12/01/2022</span>
+                            </div>
+                            <p>
+                                Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content-right col-xl-4">
+                    <div class="top-news">
+                        <h4 class="title">BÀI VIẾT XEM NHIỀU</h4>
+                        <a class="item d-flex">
+                            <img src="./assets/img/tintuc5.png" alt="">
+                            <div class="d-flex flex-column">
+                                <b>Chất lượng nước máy thành phố Hà Nội</b>
+                                <span>12/01/2022</span>
+                            </div>
+                        </a>
+                        <a class="item d-flex">
+                            <img src="./assets/img/tintuc5.png" alt="">
+                            <div class="d-flex flex-column">
+                                <b>Chất lượng nước máy thành phố Hà Nội</b>
+                                <span>12/01/2022</span>
+                            </div>
+                        </a>
+                        <a class="item d-flex">
+                            <img src="./assets/img/tintuc5.png" alt="">
+                            <div class="d-flex flex-column">
+                                <b>Chất lượng nước máy thành phố Hà Nội</b>
+                                <span>12/01/2022</span>
+                            </div>
+                        </a>
+                        <a class="item d-flex">
+                            <img src="./assets/img/tintuc5.png" alt="">
+                            <div class="d-flex flex-column">
+                                <b>Chất lượng nước máy thành phố Hà Nội</b>
+                                <span>12/01/2022</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="banner banner-1"></div>
+                    <div class="banner banner-2"></div>
+                </div>
+            </div>
         </div>
     </main>
     <!---------------------------------- FOOTER ---------------------------------->
