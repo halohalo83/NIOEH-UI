@@ -1,9 +1,9 @@
 $(document).ready(function() {
     // Sự kiện click chuyển tab menu
-    $('.tab-container:first').show();
-    $('.tab-navigation li:first').addClass('active');
-    // $('.tab-container.tab-water').show();
-    // $('.tab-container:first').hide();
+    // $('.tab-container:first').show();
+    // $('.tab-navigation li:first').addClass('active');
+    $('.tab-container.tab-news.detail').show();
+    $('.tab-container:first').hide();
 
     $('.tab-navigation li').click(function(event) {
         index = $(this).index();
@@ -63,6 +63,33 @@ $(document).ready(function() {
         arrows: false,
         dots: false,
         autoplay: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [{
+                breakpoint: 1080,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 720,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                }
+            }
+
+        ]
+    })
+
+    $(".relate-slide").slick({
+        infinite: true,
+        arrows: true,
+        prevArrow: '<span class="btn-prev"></span>',
+        nextArrow: '<span class="btn-next"></span>',
+        dots: false,
         slidesToShow: 3,
         slidesToScroll: 3,
         responsive: [{
