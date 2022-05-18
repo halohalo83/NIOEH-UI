@@ -175,7 +175,7 @@ li {
   line-height: 84px;
   letter-spacing: 0.02em;
   color: #0082cd;
-  text-shadow: 3px 0 0 #fff, -3px 0 0 #fff, 0 3px 0 #fff, 0 -3px 0 #fff, 3px 3px #fff, 2px 3px 0 #fff, 2px -2px 0 #fff, 3px -2px 0 #fff;
+  text-shadow: 3px 0 0 #fff, -3px 0 0 #fff, 0 3px 0 #fff, 0 -3px 0 #fff, 3px 3px #fff, 2px 3px 0 #fff, 2px -2px 0 #fff, 3px -2px 0 #fff;
 }
 
 .tab-home .slider-item.item-2 .left-content h1 span {
@@ -187,7 +187,7 @@ li {
   font-weight: 600;
   font-size: 40px;
   line-height: 47px;
-  text-shadow: -3px 0 0 #fff, 0px 0 0 #fff, 0 3px 0 #fff, 0 -2px 0 #fff, 3px 2px #fff, 2px -1px 0 #fff, 1px 0px 0 #fff, -2px -2px 0 #fff;
+  text-shadow: -3px 0 0 #fff, 0px 0 0 #fff, 0 3px 0 #fff, 0 -2px 0 #fff, 3px 2px #fff, 2px -1px 0 #fff, 1px 0px 0 #fff, -2px -2px 0 #fff;
 }
 
 .tab-home .slider-item .slider-content h1 {
@@ -831,9 +831,9 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .tab-water .advantage .adv-container .item img {
@@ -868,6 +868,36 @@ li {
 }
 
 .tab-water .advantage .adv-container .item.item-3::after {
+  content: "";
+  position: absolute;
+  background-color: #24a11e;
+  width: 2px;
+  height: 30px;
+  right: 0;
+  top: 75%;
+}
+
+.tab-water .advantage .adv-container .item.item-5::after {
+  content: "";
+  position: absolute;
+  background-color: #24a11e;
+  width: 2px;
+  height: 30px;
+  right: 0;
+  top: 68%;
+}
+
+.tab-water .advantage .adv-container .item.item-7::after {
+  content: "";
+  position: absolute;
+  background-color: #24a11e;
+  width: 2px;
+  height: 30px;
+  right: 0;
+  top: 37%;
+}
+
+.tab-water .advantage .adv-container .item.item-8::after {
   content: "";
   position: absolute;
   background-color: #24a11e;
